@@ -1,13 +1,14 @@
 .caption-word{
     background-color: #0e8a27a8;
     opacity: 1;
+    
 }
 .navbar-dark .navbar-nav .nav-link {
     color: rgb(15, 15, 15)!important;
 }
 
 .navbar-text1{
-    color: rgb(245, 21, 21)!important;
+    /* color: rgb(245, 21, 21)!important; */
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     
@@ -112,12 +113,12 @@
     background-color: black;
   }
   .footer-text1{
-      font-size: 35px;
+      font-size: 20px;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       color:rgb(245, 21, 21);
   }
   .footer-text2{
-    font-size: 35px;
+    font-size: 20px;
     color:00ff33; 
 }
 
@@ -138,9 +139,9 @@
  @media screen and (max-width:768px) {
     .carousel-item img {
         width: 100%;
-        height: auto;
-    
+        height: 400px;
     }
+    
     .hire-us img{
         width: 100%;
         height: auto;
@@ -156,3 +157,101 @@ padding-bottom: 100px;
 .pt{
     padding-top: 100px;
 }
+
+
+
+/* navbar */
+@media screen and (max-width: 768px) {
+    .navbar-custom {
+      font-size: 16px; /* Adjust font size */
+    }
+    /* Make the carousel images*/
+    .carousel-item img {
+        width: 100%;
+        height: auto;
+      }
+      /*Jumbotron font size */
+      .head-one {
+        font-size: 30px;
+      }
+      /* About Us */
+      .hod {
+        padding: 20px;
+      }
+
+      .card {
+        margin-bottom: 20px;
+      }
+      .icon {
+        font-size: 60px;
+      }
+        /*footer links */
+      .list-group-item {
+        font-size: 14px;
+      }
+  /* Center footer text and the logo */
+      .footer-text1, .footer-text2 {
+        font-size: 25px;
+      }
+      .navbar-brand {
+        height: 80px;
+        width: 80px;
+      }
+/*  header image and text */
+      .hire-us img {
+        width: 100%;
+        height: auto;
+      }
+      .head-two {
+        font-size: 30px;
+      }
+      /* Adjust the table and industries */
+      .mx h4 {
+        font-size: 25px;
+      }
+       /* Adjust the copyright */
+      .copyright {
+        font-size: 16px;
+      }
+ /* More" link in the Jumbotron*/
+      .abouth {
+        font-size: 20px;
+      }
+  }
+  
+  /* Center text*/
+  @media screen and (max-width: 576px) {
+    .navbar-text1, .navbar-text2 {
+      font-size: 16px;
+    }
+  }
+  
+  
+  /* Make the "About Us" Jumbotron text responsive */
+  @media screen and (max-width: 768px) {
+    .abt-txt {
+      font-size: 16px;
+    }
+      /* Adjust Service */
+    .service-heading {
+        font-size: 25px;
+      }
+      .service-heading p {
+        font-size: 16px;
+      }
+      /* navigation links responsive */
+      .mynav {
+        width: auto;
+      }
+        /* Adjust Why Us*/
+      .why-us {
+        font-size: 16px;
+      }
+      /* Connect with Us*/
+      .foot-icon {
+        font-size: 25px;
+      }
+    
+  }
+  
+  
